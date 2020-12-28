@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         button.setOnClickListener{view->
             clickdatepicker(view)
-            Toast.makeText(this,"BUTTON WAS CLICKED",Toast.LENGTH_SHORT).show()
+
         }
         }
 
@@ -41,8 +41,8 @@ class MainActivity : AppCompatActivity() {
 
 
 
-           textView4.setText("$differenceinminutes")
-           textView.setText("$differenceindDays")
+           textView4.setText("${differenceinminutes} In Minutes")
+           textView.setText("${differenceindDays} In Days")
 
 
 
